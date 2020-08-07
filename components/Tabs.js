@@ -39,5 +39,7 @@ axios.get('https://lambda-times-api.herokuapp.com/topics')
         })
     })
     .catch(function failureHandler(error) {
+
+        // In case things go haywire
         console.log(error);
       });
